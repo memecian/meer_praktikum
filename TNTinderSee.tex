@@ -1,7 +1,6 @@
 \documentclass[12pt,titlepage]{scrreprt}
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[numbib]{tocbibind}
 \usepackage{color}
 \usepackage[a4paper,lmargin={4cm},rmargin={2cm},tmargin={2.5cm},bmargin = {2.5cm}]{geometry}
 \usepackage{amssymb}
@@ -20,11 +19,32 @@
 \maketitle
 \end{titlepage}
 \tableofcontents
+<<<<<<< HEAD
+\chapter{Vorwort}
+\section{Vorbedingungen}
+\section{Forschungsgegenstand}
+\section{Erwartungen}
+\chapter{Hauptteil}
+\section{Kartierung}
+    \subsection*{QGIS}
+    Alle Kartierungsvorgänge wurden mit der Free Open Source Software \emph{QGIS}\cite{qgis} durchgeführt.
+    
+\section{Wasserproben}
+\section{Sedimentproben}
+\section{Multiparametermessungen}
+\section{ROV-Kartierungen}
+\section{Fazit}
+
+\begin{thebibliography}{9}
+\bibitem{qgis}
+QGIS 3.16 LTS
+\textit{https://qgis.org/}
+\end{thebibliography}
+=======
 \include{Vorwort}
 \include{Hauptteil}
 \include{Fazit}
-\include{Danksagung}
 \bibliography{bibliography}{}
 \bibliographystyle{plain}
-\include{Anhang}
+>>>>>>> 7745f445f227b63f272daba9fad58f62fd178c0f
 \end{document}
