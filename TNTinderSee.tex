@@ -6,7 +6,9 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{graphicx}
-\bibliography{bibliographie}
+\usepackage{url}
+\usepackage{cite}
+
 
 \begin{document}
 
@@ -17,6 +19,7 @@
 \maketitle
 \end{titlepage}
 \tableofcontents
+<<<<<<< HEAD
 \chapter{Vorwort}
 \section{Vorbedingungen}
 \section{Forschungsgegenstand}
@@ -37,4 +40,11 @@
 QGIS 3.16 LTS
 \textit{https://qgis.org/}
 \end{thebibliography}
+=======
+\include{Vorwort}
+\include{Hauptteil}
+\include{Fazit}
+\bibliography{bibliography}{}
+\bibliographystyle{plain}
+>>>>>>> 7745f445f227b63f272daba9fad58f62fd178c0f
 \end{document}
