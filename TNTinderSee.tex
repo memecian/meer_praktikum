@@ -11,7 +11,7 @@
 \usepackage{wrapfig}
 \usepackage{url}
 \usepackage{cite}
-\graphicspath{{Images/}}
+
 
 \begin{document}
 % \include{Title}
@@ -38,7 +38,17 @@ Unser Wettbewerbsbeitrag umfasst
 
 \tableofcontents
 \include{Vorwort}
-\include{Hauptteil}
+\chapter{Hauptteil}
+\section{Versuchsplanung}
+\input{Kartierung}
+%\input{Wasserproben}
+\subsection{Multibeamparametermessungen}
+\input{Multibeamparametermessungen}
+\subsection{ROV-Unterschung}
+\input{ROV-Untersuchung}
+\section{Ergebnisse}
+\section{Diskussion der Ergebnisse}
+
 \include{Fazit}
 \include{Danksagung}
 \bibliography{bibliography}
