@@ -3,20 +3,19 @@
  
 %!TEX root =  TNTinderSee.tex
 
-Da das vollständige Abfahren des Gebiets mithilfe des ROVs zeitlich und stromtechnisch nicht 
+Da das vollständige Abfahren des Gebiets mithilfe des ROVs Zeitlich und Stromtechnisch nicht 
 möglich gewesen wäre, brachten die Forscher des Geomar ein Multibeam mit auf die Aldebaran. \\
 
 Ein Multibeam funktioniert ähnlich wie ein Echolot, es sendet eine Schallwelle in die zu messende 
-Richtung und wartet darauf dieses Signal wieder zurückzubekommen. Durch den Zeitunterschied 
+Richtung und wartet darauf, dieses Signal wieder zurückzubekommen. Durch den Zeitunterschied 
 kann die Entfernung bestimmt werden. Der größte Unterschied zwischen einem Echolot und dem Multibeam 
-liegt bei der Anzahl der "Beams". \\
+liegt hierbei bei der Anzahl der "Beams". \\
 
-Das von uns verwendete Multibeam kann mit 512 Einzel-Echoloten in einem Winkel von 130° großflächig den
-Meeresboden kartieren und dies 
+Das von uns verwendete Multibeam kann mit 512 Einzel-Echoloten großflächig den Meeresboden kartieren und dies 
 deutlich genauer als unsere ROV-Kamera es schaffen könnte. Da die zu messenden Schallwellen des Multibeams 
-sich kegelförmig ausbreiten haben wir auf dem Meeresboden ein Quadrat, dessen Größe die Auflösung unseres Multibeams beschreibt.
-Wir stellen die Genauigkeit des Multibeams, später "Grid" gennant, zu Anfang auf 25cm^2 um den Computer nicht zu überlasten, aber 
-noch immer kleine Gegenstände zu finden.\\
+sich kegelförmig ausbreiten haben wir in etwa ein Quadrat, dessen Größe die Auflösung unseres Multibeams beschreibt.
+Wir stellen die Genauigkeit des Multibeams, später Grid gennant, zu Anfang auf 25cm$^2$ um den Computer nicht zu überlasten, aber 
+dennoch noch kleine Gegenstände zu finden.\\
 
 Da die Schallgeschwindigkeit in jedem Gewässer leicht unterschiedlich ist, wurde auf dem Multibeam
 ein Schallgeschwindigkeitsmesser montiert. Doch nicht nur hier kann sich die Geschwindigkeit ändern!
@@ -24,23 +23,20 @@ Auch innerhalb des Wassers gibt es Schichten, in denen der Schall sich langsamer
 der Schicht darüber oder darunter. Dadurch kommt es zu Brechungen des "Beams" und der tatsächliche 
 Strahlungswinkel des Multibeams verändert sich. Dies hat dann wiederrum einen Effekt auf die finale Kartierung.
 Ab einer Tiefe von mehr als 10 Meter muss dieser Effekt beachtet werden. Da unser Forschungsgebiet nur eine 
-Tiefe von maximal 7 Meter hat, können wir diesen Effekt vernachlässigen.\\
+Tiefe von maximal 7 Meter hat, können wir den Effekt vernachlässigen.\\
 
 Jens Greinert und Mareike Kampmeier, beide Mitarbeiter des Geomar, stellen uns das Multibeam zur Verfügung und 
-leisten eine großartige Hilfe bei der Kalibrierung und Datenverwertung des selbigen. Die gewonnen Daten werden 
+leisten eine roßartige Hilfe bei der Kalibrierung und Datenverwertung des selbigen. Die gewonnen Daten werden 
 später auch vom Geomar verwendet und analysiert werden. \\
-
-Die Kalibrierung umfasst den Roll, Pitch und Yaw des Schiffes mithilfe eines Bewegungssensors aus den Daten zu 
-entfernen und auch die Befestigung des Multibeams am Schiff zu sichern. Da diese Befestigung mobil sein muss, kann
-dies nicht so genau wie an einer festinstallierten Stelle passieren. Die Ergebinsse sond dennoch hoch genau. 
-Das Multibeam ist mithilfe eines Metallgestells an der Linken Seite der Aldebaran angebracht und kann bei Bedarf 
-abgesenkt oder hochgezogen werden.\\
 
 Wir fahren möglichst parallele, gerade Bahnen mit dem Multibeam um eine möglichst hohe Abdeckung zu erreichen. 
 Das wir, um die Genauigkeit des Multibeams nicht zu gefährden, nur knapp 3 Knoten schnell fahren dürfen setzt
 uns jedoch dem starken Wind aus. \\
 
-Im Geomar können wir die Rohdaten analysieren. Auch das "Grid", können wir nun verfeinern von 25cm^2 auf 10cm^2. 
+Auch die Befestigung des Multibeams ist bringt uns hin und wieder leichte Fehler in die Kartierung. Für die 
+Umstände ist das Multibeam trotzdem erstaunlich genau und wir können drei interessante Punkte auf dem 
+Meeresboden ausfindig machen. \\
+Im Geomar können wir die Rohdaten analysieren. Auch das "Grid", können wir nun verfeinern von 25cm$^2$ auf 10cm$^2$. 
 Wir löschen fehlerhafte Daten, erstellen eine 3D-Karte des gescannten Gebiets und erzeugen ein "Backscatter". 
 Das "Backscatter" umfasst weniger die Tiefe des Gebiets als die empfangene Laustärke unserer Signale. 
 Diese Lautstärke wird von der Tiefe des Gebiets und vor allem von der beschaffenheit des Bodens bestimmt. \\
@@ -49,4 +45,4 @@ Generell kann man sagen, das je härter der Boden ist, desto stärker werden die
 Auf der "Backscatter"-Karte wird diese Laustärke veranschaulicht und man kann die Art des Bodens bestimmen.
 Auch Munition würde auf dieser Karte stark auffallen, da Sie die Schallwellen starkreflektiert und so 
 auf der Karte hell aufleuchten würde. Auf der von uns erzeugten Karte erkennt man die Seegraßwiesen in 
-der Nähe der Insel Vilm an ihrer geringen Reflektion
+der Nähe der Insel Vilm an ihrer geringen Reflektion.
