@@ -3,19 +3,22 @@
 \usepackage[utf8]{inputenc}
 \usepackage{color}
 \usepackage{float}
-\usepackage[a4paper,lmargin={2.5cm},rmargin={2.5cm},tmargin={2.5cm},bmargin = {2cm}]{geometry}
+\usepackage[a4paper,lmargin={2.5cm},rmargin={2.5cm},tmargin={2.5cm},bmargin = {2cm},footskip={1cm}]{geometry}
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{graphicx}
 \usepackage{subfig}
 \usepackage{wrapfig}
 \usepackage{url}
-\usepackage{cite}
 \usepackage{calc}
+\usepackage{overcite} 
+\renewcommand\citeform[1]{[#1]}
 \usepackage{hyperref}
-\hypersetup{%
-  pdfborder=000
+\hypersetup{
+colorlinks=false,
+  pdfborder={000}
 }
+
 \newcommand{\jens}{Prof. Dr. Jens Greinert }
 % !TEX program = xelatex
 \begin{document}
@@ -39,17 +42,19 @@
 
 \end{titlepage}
 \addchap{Kurzfassung}
-Für unseren Wettbewerbsbeitrag haben wir das Seegebiet zwischen dem Hafen Lauterbach
-auf Rügen und der Insel Vilm kartiert und beprobt. \\ Das Ziel dabei ist gewesen, etwaige Munitionshalden aufzuspüren 
+Für unseren Wettbewerbsbeitrag haben wir das Seegebiet zwischen dem Hafen Lauterbach auf Rügen und der Insel Vilm kartiert und beprobt. \\ Das Ziel dabei ist gewesen, etwaige Munitionshalden aufzuspüren 
 und mit Gewässer- und Sedimentproben die Umweltbelastung durch sprengstofftypische Verbindungen zu untersuchen.
-\\ Die Fragestellung dabei: Wie dringend sollte die Bergung versenkter Munition in die Wege geleitet werden?
-Besteht eine konkrete Gefahr vor allem für Tiere und Mensch durch Altmunition im Meer? \\ Um die Frage zu beantworten haben wir das anvisierte Gebiet großflächig mit einem Multibeam kartiert, Wasser- und Sedimentproben genommen und (zum derzeitigen Zeitpunkt teilweise) ausgewertet und auffällige Positionen zur genaueren Begutachtung mit einem ROV angefahren.\\
-
-
-
-Die Fragestellung dabei: Ist ein weiteres Monitoring der Gewässer um Rügen erforderlich, um die Gefahren durch versenkte Munition einschätzen zu können? Besteht eine konkrete Gefahr vor allem für Tiere und Mensch durch Altmunition im Meer? Lassen sich mit einem Multibeam Kartierungen zuverlässig durchführen?\\ Um diese Fragen zu beantworten haben wir das anvisierte Gebiet großflächig mit einem Multibeam kartiert, Wasser- und Sedimentproben genommen und auffällige Positionen zur genaueren Begutachtung mit einem ROV angefahren.\\
-
-Für den von uns kartierten Bereich kann in Hinsicht größerer Munitionshalden Entwarnung gegeben werden, mit Multibeam und optischer Erkundung waren keine Auffälligkeiten in Hinsicht sprengstofftypischer Objekte auszumachen. Auch die chemische Analyse der Gewässer- und Sedimentproben haben keine Auffälligkeiten gezeigt, so dass davon ausgegangen werden kann, dass es keine außergewöhnlich hohen Belastungen von sprengstofftypischen Verbindungen auf der Südwestseite von Rügen gibt. Mit den Multibeam-Kartierungen konnten in nur kurzer Kampagnenzeit  großflächige Karten erstellt werden, die deutlich die Ausdehnung von Seegras und Makrophyten zeigen und die in ihrer Abdeckung und Auflösung Kartierungen durch Taucher weit übertreffen.
+\\ Die Fragestellung dabei: Wie dringend sollte die Bergung versenkter Munition vor der Südostküste Rügens in die Wege geleitet werden?
+Folgende Fragen haben wir uns im Vorfeld gestellt:
+\begin{itemize}
+\item Besteht vor Ort eine konkrete Gefahr vor allem für Tiere und Mensch durch Altmunition im Meer und ist ein weiteres Monitoring der Gewässer um Rügen erforderlich, um die Gefahren durch versenkte Munition einschätzen zu können? 
+\item Wie lassen sich mit einem Multibeam Kartierungen zuverlässig durchführen? Sind neben etwaiger Munitionshalden bspsw. Seegraswiesen zu identifizieren?
+\item Lassen sich aus dem Bildmaterial unseres Unterwasserroboters über photogrammetrische Verfahren 3D-Modelle erzeugen?
+\end{itemize}
+Um diese Fragen zu beantworten, haben wir das anvisierte Gebiet großflächig mit einem Multibeam (vgl: \cite{multib}) kartiert, Wasser- und Sedimentproben genommen und ausgewertet (zum derzeitigen Zeitpunkt mit Ausnahme der Sedimentproben) und auffällige Positionen zur genaueren Begutachtung mit einem ROV angefahren.\\
+Für den von uns kartierten Bereich kann in Hinsicht größerer Munitionshalden Entwarnung gegeben werden, mit Multibeam und optischer Erkundung waren keine Auffälligkeiten in Hinsicht sprengstofftypischer Objekte auszumachen. Auch die chemische Analyse der Gewässer- und Sedimentproben haben keine Auffälligkeiten gezeigt, so dass davon ausgegangen werden kann, dass es keine außergewöhnlichen Belastungen von sprengstofftypischen Verbindungen auf der Südostseite von Rügen gibt.\\
+Mit den Multibeam-Kartierungen konnten in nur kurzer Kampagnenzeit auch bei mobiler Installation auf der Aldebaran großflächige Karten erstellt werden, die deutlich die Ausdehnung von Seegras und Makrophyten zeigen und die in ihrer Abdeckung und Auflösung Kartierungen durch Taucher weit übertreffen. \\
+Obwohl wir wegen der mangelnden Kameraqualität unseres ROVs keine 3D-Modelle aus dem Bildmaterial erzeugen konnten, ist die generelle Machbarkeit, bei Installation einer anderen Kamera mit günstigerem Aufnahmewinkel, gegeben.
 
 \tableofcontents
 \include{Vorwort}
